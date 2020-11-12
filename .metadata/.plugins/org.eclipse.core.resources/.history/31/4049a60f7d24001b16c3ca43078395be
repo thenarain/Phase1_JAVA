@@ -1,0 +1,36 @@
+package eg1;
+
+public class Casting {
+
+	public static void main(String[] args) {
+//		implicit/widening type
+		
+		int x = 40;
+		long y = x;
+		System.out.println("Value of y is "+y);
+		
+		float z = y;
+		System.out.println("Value of z is "+z);
+		
+		short s = 16;
+		int i = s;
+		System.out.println("Value of i is "+i);
+		
+		float ff = 12.0f;
+		double d = ff;
+		System.out.println("Value of d is "+d);
+		
+		char c = 'S';
+		int xx = c;
+		System.out.println("Value of xx is "+xx);
+
+		float fff = xx;
+		System.out.println("Value of fff is "+fff);
+		
+//		explicit/narrowing type
+		
+		x = (int)y;
+		System.out.println("value of x is "+x);
+	}
+
+}

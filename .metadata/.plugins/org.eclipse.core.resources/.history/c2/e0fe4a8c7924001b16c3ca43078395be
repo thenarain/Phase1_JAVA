@@ -1,0 +1,12 @@
+package eg1;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		int x = 40;
+		long y = x;
+		System.out.println("Value of y is "+y);
+
+	}
+
+}
